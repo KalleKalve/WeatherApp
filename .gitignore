@@ -363,3 +363,5 @@ MigrationBackup/
 FodyWeavers.xsd
 /wwwroot/dist/bundle.js
 /wwwroot/dist/bundle.js.LICENSE.txt
+/WeatherApp/wwwroot/dist/bundle.js
+/WeatherApp/wwwroot/dist/bundle.js.LICENSE.txt

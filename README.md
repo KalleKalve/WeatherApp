@@ -9,6 +9,7 @@ Quick setup guide for this project.
 - `File` > `Open` > `Project/Solution`, select your `.sln`.
 
 ### 2. Build Solution
+- Open Terminal > `npm install`.
 - `Build` > `Build Solution`.
 
 ### 3. Create DB

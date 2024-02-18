@@ -1,7 +1,7 @@
 
 using WeatherApp.DatabaseConnector;
 using Microsoft.EntityFrameworkCore;
-using WeatherApp.Services;
+using WeatherApp.MVC.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 

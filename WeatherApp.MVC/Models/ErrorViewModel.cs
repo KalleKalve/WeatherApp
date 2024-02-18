@@ -1,4 +1,4 @@
-namespace WeatherApp.Models
+namespace WeatherApp.MVC.Models
 {
     public class ErrorViewModel
     {

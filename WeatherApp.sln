@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34004.107
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeatherApp", "WeatherApp\WeatherApp.csproj", "{986DCFF1-A3EE-422E-B07A-0A601CD64D6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeatherApp", "WeatherApp.MVC\WeatherApp.MVC.csproj", "{986DCFF1-A3EE-422E-B07A-0A601CD64D6D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherApp.Database", "WeatherApp.Database\WeatherApp.Database.csproj", "{F035A7CE-A4A3-4F48-8A5B-11B8BC4CE033}"
 EndProject

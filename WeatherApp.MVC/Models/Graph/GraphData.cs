@@ -1,4 +1,4 @@
-﻿namespace WeatherApp.Models.Graph
+﻿namespace WeatherApp.MVC.Models.Graph
 {
     public class GraphData
     {

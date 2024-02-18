@@ -361,5 +361,5 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
-/WeatherApp/wwwroot/dist/bundle.js
-/WeatherApp/wwwroot/dist/bundle.js.LICENSE.txt
+/WeatherApp.MVC/wwwroot/dist/bundle.js
+/WeatherApp.MVC/wwwroot/dist/bundle.js.LICENSE.txt

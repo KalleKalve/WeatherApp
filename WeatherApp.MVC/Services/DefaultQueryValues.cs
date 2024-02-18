@@ -1,4 +1,4 @@
-﻿namespace WeatherApp.Services
+﻿namespace WeatherApp.MVC.Services
 {
     public class DefaultQueryValues
     {

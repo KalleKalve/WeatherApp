@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
-using WeatherApp.Models;
+using WeatherApp.MVC.Models;
 
-namespace WeatherApp.Controllers
+namespace WeatherApp.MVC.Controllers
 {
     public class HomeController : Controller
     {

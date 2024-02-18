@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using WeatherApp.Models.Graph;
-using WeatherApp.Services;
+using WeatherApp.MVC.Models.Graph;
+using WeatherApp.MVC.Services;
 
-namespace WeatherApp.Controllers
+namespace WeatherApp.MVC.Controllers
 {
     [ApiController]
     [Route("[controller]")]

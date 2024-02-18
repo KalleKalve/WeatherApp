@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace WeatherApp.Migrations
+namespace WeatherApp.DatabaseConnector.Migrations
 {
     public partial class AdjustTemperaturePrecision : Migration
     {

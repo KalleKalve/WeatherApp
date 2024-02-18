@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using WeatherApp.Models.Graph;
+using WeatherApp.Services;
 
 namespace WeatherApp.Controllers
 {
@@ -7,9 +8,17 @@ namespace WeatherApp.Controllers
     [Route("[controller]")]
     public class GraphDataController : ControllerBase
     {
+        private readonly DefaultQueryValues _defaultQueryValues;
+        public GraphDataController(DefaultQueryValues defaultQueryValues)
+        {
+            _defaultQueryValues = defaultQueryValues;
+        }
+
         [HttpGet]
         public IEnumerable<GraphData> Get()
         {
+            var a = _defaultQueryValues;
+
             // Fetch and return data from the database
             return new List<GraphData> {
                 // Example data

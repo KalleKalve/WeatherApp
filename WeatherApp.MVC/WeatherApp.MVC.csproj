@@ -11,6 +11,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Hangfire.AspNetCore" Version="1.8.10" />
+    <PackageReference Include="Hangfire.SqlServer" Version="1.8.10" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.27" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.27">
       <PrivateAssets>all</PrivateAssets>
@@ -19,7 +21,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\WeatherApp.Core\WeatherApp.Core.csproj" />
     <ProjectReference Include="..\WeatherApp.Database\WeatherApp.Database.csproj" />
+    <ProjectReference Include="..\WeatherApp.Infrastructure\WeatherApp.Infrastructure.csproj" />
   </ItemGroup>
 
   <Target Name="NpmRunBuild" BeforeTargets="Build">

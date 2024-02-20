@@ -37,9 +37,6 @@ class Graph extends Component {
     processData(data) {        
         const result = data.reduce((acc, curr) => {
 
-            console.log("curr");
-            console.log(curr);
-
             const key = `${curr.country}/${curr.city}`;
             if (!acc[key]) {
                 acc[key] = {
@@ -55,9 +52,6 @@ class Graph extends Component {
                     acc[key].lastUpdated = curr.lastUpdated;
                 }
             }
-
-            console.log("acc");
-            console.log(acc);
 
             return acc;
         }, {});
@@ -86,7 +80,8 @@ class Graph extends Component {
         };
 
         const footer = (tooltipItems) => {
-            const index = tooltipItems[0].dataIndex;
+            const index = tooltipItems[0].dataIndex;            
+
             return `Last Updated: ${lastUpdatedTimes[index]}`;
         };
 

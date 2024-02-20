@@ -54,7 +54,8 @@ foreach (var city in cities.CityNames)
     recurringJobManager.AddOrUpdate<IDataFetchService>(jobId,
         service => service.FetchAndSaveDataAsync(city),
         "*/1 * * * *"); // For Demo purpose, this is 1m, but for this weather Api,
-                        // 10m would be better, since current data is updated ~ every 15m.
+                        // 10m would be better, since current data is updated ~ every 15m,
+                        // even tho UI client fetches it every 1m
 }
 
 if (!app.Environment.IsDevelopment())
